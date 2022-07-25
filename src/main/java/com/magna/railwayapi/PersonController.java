@@ -11,7 +11,7 @@ import java.util.Optional;
 @RestController
 public class PersonController {
 
-    @Value("${my.environment.property}")
+    @Value("${my_environment_property}")
     private String environmentVar;
 
     private List<Person> persons;
